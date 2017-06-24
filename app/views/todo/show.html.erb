@@ -5,7 +5,9 @@
 
 <ul style="list-style-type:none" class="nopaddingleft" class="textbackground">
 </ul>
-    
+
+<h3>Todo #<%= params[:id] %></h3>
+
 <p class="boldtext"><span><%= @todo_description %></span></p> 
 <input type="text" placeholder="Edit ToDo"> 
 <input type="submit" name="Submit" value="Done"/>
@@ -13,7 +15,7 @@
 <br>
 <br>
 
-<a href="index.html"><span>See full list</span></a>
+<a href="/todo/index.html"><span>See full list</span></a>
         
         
   
