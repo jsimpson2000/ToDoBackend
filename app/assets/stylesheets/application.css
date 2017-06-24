@@ -19,7 +19,6 @@ h1 {
     font-style: italic;
     font-family: Dancing Script;
     font-size: 50px;
-    
 }
 
 li {
@@ -36,10 +35,22 @@ body {
     -webkit-background-size: center;
     -moz-background-size: cover; 
     -o-background-size: center;
-    background-size: 100% 100%;
+    background-size: 100% 250%; /*JAITODO: Check background image height*/
     background-repeat: no-repeat;
 }
 .textbackground span,h1 span,li span,a span {
     background-color: white;
 }
-    
+
+.nopaddingleft{
+    padding-left: 0px;
+}
+.boldtext{ 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textbackground span,li span,a span, p span {
+    background-color: white;
+}
+
